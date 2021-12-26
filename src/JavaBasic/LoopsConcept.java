@@ -7,19 +7,15 @@ public class LoopsConcept {
         // 1. While loop
         // Disadvantage : it gives infinite loop if you don't give incremental/decrement part
         int i = 1;
-
         while (i <= 10) {
-
             System.out.println(i);
             i += 1;
-
         }
-
 
         System.out.println("***********************");
 
         //2. For Loop
-        for (int j = 1; j <= 10; j++) {
+        for (int j = 1; j <= 10; j++) { // j++ = j +1 , j += 1
             System.out.println(j);
         }
 
@@ -29,6 +25,7 @@ public class LoopsConcept {
         for (int k = 10; k >= 1; k--) {
             System.out.println(k);
         }
+
     }
 
 }
