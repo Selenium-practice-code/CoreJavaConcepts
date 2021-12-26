@@ -9,7 +9,7 @@ public interface Laptops {
      * No method body
      * Only Method Declaration
      * we achieve 100% abstraction
-     * only Final and static variable are define
+     * only Final and static variable are defined
      */
     public void lenovo();
 

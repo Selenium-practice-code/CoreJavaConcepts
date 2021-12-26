@@ -9,15 +9,17 @@ public class StringConcatenation {
 		
 		String x = "Hello";
 		String y = "World";
-		
+
+		// left to right execution
 		System.out.println(a+b); //300
 		System.out.println(x+y); //Hello world
-		System.out.println(a+b+x+y); //300Helloworld
-		System.out.println(x+y+a+b); //HwlloWorld100200
+		System.out.println(a+b+x+y); //300HelloWorld
+		System.out.println(x+y+a+b); //HelloWorld100200
 		
 		System.out.println(x+y+(a+b)); //HelloWorld300
 		
-		System.out.println("value of b " + b);
+		System.out.println("value of b " + b); //200
+
 
 	}
 

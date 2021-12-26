@@ -11,7 +11,7 @@ public class LoopsConcept {
         while (i <= 10) {
 
             System.out.println(i);
-            i = i + 1;
+            i += 1;
 
         }
 

@@ -9,7 +9,8 @@ public class ArrayConcept {
         // int array
         // lower bound/index = 0
         // upper bound/index = n-1(size of array)
-        // disadvantage - 1. Size is Fixed -- also called Static Array ---overcome this problem use Collections -- ArrayList, Hashtable(dynamic array)
+        // disadvantage - 1. Size is Fixed -- also called Static Array
+        // overcome this problem use Collections -- ArrayList, Hashtable(dynamic array)
         // 2. store only similar data types -- to overcome this problem, we use Object array.
 
         int[] i = new int[4];

@@ -21,7 +21,7 @@ public class StaticAndNonStaticConcept {
         obj.send();
         System.out.println(obj.name);
 
-        // can i access static method by using object reference
+        // can I access static method by using object reference
         obj.sum(); // not good practice
 
 

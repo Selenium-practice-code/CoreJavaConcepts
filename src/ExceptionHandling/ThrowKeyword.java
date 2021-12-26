@@ -3,7 +3,7 @@ package ExceptionHandling;
 public class ThrowKeyword {
 
     /**
-     * Throw Vs Thrown keywords
+     * Throw Vs Throws keywords
      * 1.Throw keyword used when u want to throw Exception deliberately, it's okay I want to
      * create my own exception, and I want to throw it.
      * some exceptions are not available in Java, so you can create ur own exception like "SumitException"

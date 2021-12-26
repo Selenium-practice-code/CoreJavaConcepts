@@ -4,7 +4,7 @@ public class FinalizeConcept {
 
     // Using for garbage Collection
     // if No object reference variable available
-    // Finalize Method used for clean up processing before garbage collector proccessing
+    // Finalize Method used for clean up processing before garbage collector processing
 
     public void finalize() {
         System.out.println("inside finalize method ");
